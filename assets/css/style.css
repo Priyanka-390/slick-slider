@@ -28,14 +28,10 @@
     justify-content: center;
 }
 
-.card:hover {
-    border-color: #F53838;
-}
 
 .card {
     border-radius: 10px;
     border: 2px solid #DDD;
-    ;
     background: #FFF;
     padding: 30px;
 }
@@ -549,9 +545,11 @@
     font-style: normal;
     font-weight: 500;
 }
-.card1:hover{
+
+/* .card1:hover {
     border-color: red;
-}
+} */
+
 .ff-sig {
     color: #4F5665;
     text-align: center;
@@ -560,7 +558,8 @@
     font-style: normal;
     font-weight: 400;
 }
-.bg-white{
+
+.bg-white {
     background-color: white;
 }
 
@@ -850,4 +849,8 @@
 
 .slick-dots li {
     width: 30px !important;
+}
+
+.slick-slide.slick-current.slick-active {
+    border-color: #F53838;
 }
